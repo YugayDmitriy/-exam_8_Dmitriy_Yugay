@@ -1,0 +1,79 @@
+[
+    {
+      "model": "forum.board",
+      "pk": 8,
+      "fields": {
+        "name": "Python 7",
+        "description": "������������"
+      }
+    },
+    {
+      "model": "forum.topic",
+      "pk": 10,
+      "fields": {
+        "subject": "��������� �������������",
+        "last_updated": "2022-11-12T12:32:46.563Z",
+        "board": 8,
+        "starter": 2
+      }
+    },
+    {
+      "model": "forum.topic",
+      "pk": 11,
+      "fields": {
+        "subject": "Hello world",
+        "last_updated": "2022-11-12T12:33:09.806Z",
+        "board": 8,
+        "starter": 1
+      }
+    },
+    {
+      "model": "forum.post",
+      "pk": 11,
+      "fields": {
+        "message": "asdsadad",
+        "topic": 10,
+        "created_at": "2022-11-12T12:34:42.449Z",
+        "updated_at": "2022-11-13T12:34:35Z",
+        "created_by": 1,
+        "updated_by": 1
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 1,
+      "fields": {
+        "password": "pbkdf2_sha256$260000$CUSQfAOb2FKLjWtPTGaTov$xgfyoC1FYqIkSPiGmgyohO0z2zkiWyJTHo7Oolv9Yws=",
+        "last_login": "2022-11-12T12:34:48.087Z",
+        "is_superuser": true,
+        "username": "root",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-11-12T07:15:26.646Z",
+        "groups": [],
+        "user_permissions": []
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 2,
+      "fields": {
+        "password": "pbkdf2_sha256$260000$mQKbT4YcHuaPBAUgWiO2Ll$qvKR29XnAo58tFjQNudRLG5Iq9Hn8SYGh5UMbUnSylU=",
+        "last_login": "2022-11-12T11:24:00.029Z",
+        "is_superuser": false,
+        "username": "Dmitriy",
+        "first_name": "",
+        "last_name": "",
+        "email": "lead@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-11-12T11:23:59.848Z",
+        "groups": [],
+        "user_permissions": []
+      }
+    }
+    ]
+    
